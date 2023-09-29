@@ -1,11 +1,12 @@
 import streamlit as st
 import google.generativeai as palm
+import os
 import base64
 import json
 import pprint
 
 # Configure the client library by providing your API key.
-palm.configure(api_key="AIzaSyB-6Ljt2vEA7uHjXyXrQF_8GgYZFQzMCQ4")
+palm.configure(api_key=os.environ["API_KEY"])
 
 # Set default values
 defaults = {

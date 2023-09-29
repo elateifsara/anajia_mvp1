@@ -7,7 +7,7 @@ import pprint
 
 # Configure the client library by providing your API key.
 
-palm.configure(api_key=API_KEY)
+palm.configure(api_key=st.secrets.API_KEY)
 
 # Set default values
 defaults = {

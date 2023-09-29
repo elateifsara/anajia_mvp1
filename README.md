@@ -11,7 +11,7 @@ Developped using:
 <img title="Makersuite" src='./assets/makersuite.png'>
 - [Bard](https://bard.google.com/): to refine context and provide helpful examples
 <img title="Bard" src='./assets/bard.png'>
-- Colab: to test the API in a python environment
+- [Colab Notebook](https://github.com/elateifsara/anajia_mvp1/blob/main/%5BMakersuite_Chat_Prompt%5D_Women_Health_Pre_Check.ipynb): to test the API in a python environment
 - [Streamlit App](https://anajiamvp1-checkup.streamlit.app/): to deploy the app and make it accessible to use and test
 <img title="App" src='./assets/streamlit_app.png'>
 

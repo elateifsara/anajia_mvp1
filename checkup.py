@@ -45,13 +45,6 @@ examples = [
   ]
 ]
 
-messages = [
-  "What are some common gynecological symptoms that women should be aware of?",
-  "Here are some common gynecological symptoms that women should be aware of:\n\n* Abnormal vaginal discharge: This can be any change in the color, consistency, or odor of your vaginal discharge. It can be a sign of infection, sexually transmitted disease, or other health problems.\n* Painful intercourse: This can be caused by a number of things, including infection, dryness, or inflammation.\n* Irregular menstrual bleeding: This can be a sign of a number of things, including pregnancy, hormonal imbalance, or fibroids.\n* Pelvic pain: This can be caused by a number of things, including infection, endometriosis, or ovarian cysts.\n* Vaginal itching: This can be caused by a number of things, including infection, dryness, or allergies.\n* Vaginal burning: This can be caused by a number of things, including infection, dryness, or allergies.\n* Vaginal odor: This can be caused by a number of things, including infection, poor hygiene, or certain medications.\n\nIf you are experiencing any of these symptoms, it is important to see a doctor to get a diagnosis and treatment."
-]
-
-print(messages)
-
 # Start the Streamlit app
 st.title("Gynecological Pre-screening Assistant")
 
@@ -61,6 +54,11 @@ new_req = st.text_input("Please enter your request or query:")
 # Define the next request handler
 def next_request(new_req):
   """Handles the next request from the user."""
+  
+  messages = [
+  "What are some common gynecological symptoms that women should be aware of?",
+  "Here are some common gynecological symptoms that women should be aware of:\n\n* Abnormal vaginal discharge: This can be any change in the color, consistency, or odor of your vaginal discharge. It can be a sign of infection, sexually transmitted disease, or other health problems.\n* Painful intercourse: This can be caused by a number of things, including infection, dryness, or inflammation.\n* Irregular menstrual bleeding: This can be a sign of a number of things, including pregnancy, hormonal imbalance, or fibroids.\n* Pelvic pain: This can be caused by a number of things, including infection, endometriosis, or ovarian cysts.\n* Vaginal itching: This can be caused by a number of things, including infection, dryness, or allergies.\n* Vaginal burning: This can be caused by a number of things, including infection, dryness, or allergies.\n* Vaginal odor: This can be caused by a number of things, including infection, poor hygiene, or certain medications.\n\nIf you are experiencing any of these symptoms, it is important to see a doctor to get a diagnosis and treatment."
+  ]
 
   # Get the user's response
   messages.append(new_req)

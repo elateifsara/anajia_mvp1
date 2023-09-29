@@ -1,5 +1,7 @@
 # Anajia: Gynecological Pre-screening Assistant
 
+Built as part of the #MakerSuiteSprint!
+
 ## About this project
 
 Use PaLM API to build a conversational AI that helps women identify health issues by answering their questions about symptoms or queries they have about their health. The goal is to encourage women to use this conversational model regularly to stay informed and seek care when needed.

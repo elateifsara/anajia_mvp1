@@ -29,6 +29,7 @@ Anajia (means female survivor in Arabic), is a project aimed to incorporate arti
 ### Team members
 
 **Sara El-Ateif** - Google Developer Expert in ML and Google Ph.D. Fellow @ENSIAS
+
 **Sofia Bourhim** - Data Engineer and Microsoft Ph.D. Fellow @ENSIAS
 
 Start watching the following video at 1:37:39 to check us receiving third prize for Early Breast Cancer diagnosis app idea: https://fb.watch/nmSvfDXs1n/
